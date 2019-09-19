@@ -1,3 +1,49 @@
 *{
   box-sizing: border-box;
 }
+@font-face{
+  font-family: 'font1';
+  src:  url(font/BngMUXZYTXPIvIBgJJSb6ufN5qA.ttf);
+}
+@font-face{
+  font-family: 'font2';
+  src:  url(font/BngRUXZYTXPIvIBgJJSb6u92w7CGwRg.ttf);
+}
+body{
+  position: relative;
+}
+header{
+  position: fixed;
+  top     : 0;
+  width   : 1856px;
+}
+div.top-header{
+  width           : 1856px;
+  height          : 3px;
+  background-color: #F48024;
+}
+div.down-header{
+  width           : 1856px;
+  height          : 47px;
+  box-shadow      : 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+  background-color: #fafafb;
+  position        : relative;
+}
+div.signup a{
+  width           : 66.88px;
+  height          : 33px;
+  padding         : 8px 10.4px;
+  font-size: 14px;
+  font-family: "font1";
+  font-weight: normal;
+  color           : #FFF;
+  background-color: #0095ff;
+  border          : 1px solid #07c;
+  box-shadow      : inset 0 1px 0 #66bfff;
+}
+div.signup a:hover{
+  color           : rgba(255,255,255,0.9);
+  background-color: #07c;
+  border-color    : #005999;
+  box-shadow      : inset 0 1px 0 #3af;
+}
