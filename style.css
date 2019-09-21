@@ -158,9 +158,12 @@ div.all{
   margin-top      : 50px;
 }
 div.section1{
-  position: relative;
-  display: flex;
+  position      : relative;
+  display       : flex;
   flex-direction: row;
+  height        : 101px;
+  border-bottom : 1px solid #e4e6e8;
+  margin-bottom : 16px;
 }
 div.ques{
   margin-top: 27px;
@@ -190,6 +193,49 @@ div.ask a{
 div.ask a:focus{
   background-color: #0095ff;
 }
+div.ask a:hover{
+  background-color: #007ed9;
+}
+div.date1{
+  position      : absolute;
+  left          : 0;
+  bottom        : 17px;
+  display       : flex;
+  flex-direction: row;
+}
+div.pashof{
+  color      : #6A737C;
+  font-size  : 13px;
+  font-family: 'Aria', Helvetica, sans-serif;
+  margin     : 0 2px 0 0;
+}
+div.asked{
+  color       : #242729;
+  font-family : 'Aria', Helvetica, sans-serif;
+  font-size   : 13px;
+  margin-left : 3.5px;
+  margin-right: 16px;
+}
+div.active{
+  color      : #242729;
+  font-family: 'Aria', Helvetica, sans-serif;
+  font-size  : 13px;
+  margin-left: 3.5px;
+  margin-right: 16px;
+}
+div.view{
+  color      : #242729;
+  font-family: 'Aria', Helvetica, sans-serif;
+  font-size  : 13px;
+  margin-left: 3.5px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -208,6 +254,7 @@ div.sidebar div.home{
   font-size  : 13px;
   padding    : 4px 4px 4px 8px;
   font-family: 'Aria', Helvetica, sans-serif;
+  cursor     : pointer;
 }
 div.sidebar div.public{
   color      : #6A737C;
@@ -223,6 +270,7 @@ div.sidebar div.stack{
   padding         : 5px 6px 8px 8px;
   border-right    : 3px solid #F48024;
   font-weight     : bold;
+  cursor     : pointer;
 }
 div.sidebar div.stack span{
   font-size: 18px;
@@ -232,18 +280,21 @@ div.sidebar div.tags{
   font-family: 'Aria', Helvetica, sans-serif;
   font-size  : 13px;
   padding    : 9px 4px 4px 30px;
+  cursor     : pointer;
 }
 div.sidebar div.user{
   color      : #535A60;
   font-family: 'Aria', Helvetica, sans-serif;
   font-size  : 13px;
   padding    : 13px 4px 4px 30px;
+  cursor     : pointer;
 }
 div.sidebar div.jobs{
   color      : #535A60;
   font-family: 'Aria', Helvetica, sans-serif;
   font-size  : 13px;
   padding    : 13px 4px 4px 30px;
+  cursor     : pointer;
 }
 div.sidebar div.free{
   display: flex;
@@ -260,6 +311,7 @@ div.sidebar div.what{
   font-size  : 11px;
   font-family: 'Aria', Helvetica, sans-serif;
   margin-left: 54.5px;
+  cursor     : pointer;
 }
 div.sidebar div.side-down{
   color    : #535A60;
@@ -280,4 +332,19 @@ div.side-down div.icon{
 div.side-down div{
   font-family: 'Aria', Helvetica, sans-serif;
   padding    : 5px 2px 0px 22px;
+}
+div.sidebar div.home:hover{
+  color: #0C0D0E;
+}
+div.sidebar div.tags:hover{
+  color: #0C0D0E;
+}
+div.sidebar div.user:hover{
+  color: #0C0D0E;
+}
+div.sidebar div.jobs:hover{
+  color: #0C0D0E;
+}
+div.side-down div.text:hover{
+  color: #0C0D0E;
 }
