@@ -32,18 +32,117 @@ div.down-header{
 div.signup a{
   width           : 66.88px;
   height          : 33px;
-  padding         : 8px 10.4px;
-  font-size: 14px;
-  font-family: "font1";
-  font-weight: normal;
+  padding         : 9px 10.4px;
+  font-size       : 13px;
+  font-family     : 'Aria', Helvetica, sans-serif;
+  font-weight     : 100;
   color           : #FFF;
   background-color: #0095ff;
   border          : 1px solid #07c;
   box-shadow      : inset 0 1px 0 #66bfff;
+  position        : absolute;
+  right           : 304px;
+  top             : 7px;
+  border-radius   : 3px;
 }
 div.signup a:hover{
   color           : rgba(255,255,255,0.9);
   background-color: #07c;
   border-color    : #005999;
   box-shadow      : inset 0 1px 0 #3af;
+}
+div.login a{
+  color        : #0077CC;
+  font-size    : 13px;
+  font-family  : 'Aria', Helvetica, sans-serif;
+  padding      : 10px 10px 10px 11px;
+  border-radius: 3px;
+  position     : absolute;
+  top          : 7px;
+  right        : 374px;
+  width        : 58.2px;
+  height       : 33px;
+}
+div.login a:hover{
+  color           : #005999;
+  background-color: rgba(0,119,204,0.1);
+  border-color    : transparent;
+  box-shadow      : none;
+}
+div.search input{
+  background-color: #FFF;
+  padding         : 9.8px 9.1px 7.8px 32px;
+  width           : 650.39px;
+  height          : 32.59px;
+  position        : absolute;
+  top             : 7px;
+  right           : 449px;
+  border-radius   : 2px;
+  border          : 1px solid #bbc0c4;
+}
+div.search input::placeholder{
+  opacity  : 0.5;
+  font-size: 12px;
+}
+div.search span{
+  font-size  : 18px;
+  position   : absolute;
+  top        : 10px;
+  left       : 42.5em;
+  color      : #bbc0c4;
+  font-weight: normal;
+}
+div.link-header{
+  color         : #242729;
+  font-size     : 13px;
+  font-family   : 'Aria', Helvetica, sans-serif;
+  position      : absolute;
+  top           : 10px;
+  left          : 464px;
+  display       : flex;
+  flex-direction: row-reverse;
+}
+div.link-header a.use{
+  height       : 28px;
+  color        : #535A60;
+  font-size    : 13px;
+  font-family  : 'Aria', Helvetica, sans-serif;
+  padding      : 7px 16px;
+  margin-left  : 4px;
+  border-radius: 50px;
+}
+div.link-header a.use:hover{
+  background-color: #e4e6e8;
+  color           : #0C0D0E;
+  text-decoration : none;
+  outline         : none;
+}
+div.link-header a.cus{
+  height       : 28px;
+  color        : #535A60;
+  font-size    : 13px;
+  font-family  : 'Aria', Helvetica, sans-serif;
+  padding      : 7px 16px;
+  margin-left  : 4px;
+  border-radius: 50px;
+}
+div.link-header a.cus:hover{
+  background-color: #e4e6e8;
+  color           : #0C0D0E;
+  text-decoration : none;
+  outline         : none;
+}
+div.link-header a.pro{
+  height       : 28px;
+  color        : #535A60;
+  font-size    : 13px;
+  font-family  : 'Aria', Helvetica, sans-serif;
+  padding      : 7px 16px;
+  border-radius: 50px;
+}
+div.link-header a.pro:hover{
+  background-color: #e4e6e8;
+  color           : #0C0D0E;
+  text-decoration : none;
+  outline         : none;
 }
