@@ -11,6 +11,7 @@
 }
 body{
   position: relative;
+  height: 2453.16px;
 }
 header{
   position: fixed;
@@ -145,4 +146,97 @@ div.link-header a.pro:hover{
   color           : #0C0D0E;
   text-decoration : none;
   outline         : none;
+}
+div.all{
+  width           : 1100px;
+  height          : 2106.16px;
+  color           : #242729;
+  background-color: #FFF;
+  padding         : 24px;
+  border-left     : 1px solid #d6d9dc;
+  margin-left     : 460px;
+}
+div.sidebar{
+  width   : 164px;
+  position: fixed;
+  left    : 296px;
+  top     : 79px;
+}
+div.sidebar div.home{
+  color      : #535A60;
+  font-size  : 13px;
+  padding    : 4px 4px 4px 8px;
+  font-family: 'Aria', Helvetica, sans-serif;
+}
+div.sidebar div.public{
+  color      : #6A737C;
+  font-size  : 11px;
+  font-family: 'Aria', Helvetica, sans-serif;
+  margin     : 20px 0 5px 8px;
+}
+div.sidebar div.stack{
+  color           : #0C0D0E;
+  font-family     : 'Aria', Helvetica, sans-serif;
+  font-size       : 13px;
+  background-color: rgba(12, 13, 14, 0.05);
+  padding         : 5px 6px 8px 8px;
+  border-right    : 3px solid #F48024;
+  font-weight     : bold;
+}
+div.sidebar div.stack span{
+  font-size: 18px;
+}
+div.sidebar div.tags{
+  color      : #535A60;
+  font-family: 'Aria', Helvetica, sans-serif;
+  font-size  : 13px;
+  padding    : 9px 4px 4px 30px;
+}
+div.sidebar div.user{
+  color      : #535A60;
+  font-family: 'Aria', Helvetica, sans-serif;
+  font-size  : 13px;
+  padding    : 13px 4px 4px 30px;
+}
+div.sidebar div.jobs{
+  color      : #535A60;
+  font-family: 'Aria', Helvetica, sans-serif;
+  font-size  : 13px;
+  padding    : 13px 4px 4px 30px;
+}
+div.sidebar div.free{
+  display: flex;
+  flex-direction: row;
+  margin     : 28px 0 5px 8px;
+}
+div.sidebar div.team{
+  color      : #6A737C;
+  font-size  : 11px;
+  font-family: 'Aria', Helvetica, sans-serif;
+}
+div.sidebar div.what{
+  color      : #6A737C;
+  font-size  : 11px;
+  font-family: 'Aria', Helvetica, sans-serif;
+  margin-left: 54.5px;
+}
+div.sidebar div.side-down{
+  color    : #535A60;
+  font-size: 13px;
+  padding  : 4px 4px 4px 8px;
+  position : relative;
+}
+div.side-down div.icon{
+  position        : absolute;
+  color           : white;
+  background-color: #F48024;
+  left            : 5px;
+  top             : 5px;
+  height          : 14px;
+  width           : 8px;
+  font-size: 12px;
+}
+div.side-down div{
+  font-family: 'Aria', Helvetica, sans-serif;
+  padding    : 5px 2px 0px 22px;
 }
