@@ -258,10 +258,9 @@ div.box-right1 svg.iconStar{
   margin: 8px 5px 5px 9px;
 }
 div.box-center1{
-  height       : 185px;
+  height       : 258px;
   width        : 676px;
   position     : relative;
-  border-bottom: 1px solid #e4e6e8;
 }
 div.box-center1 p{
   font-size  : 15px;
@@ -334,7 +333,7 @@ div.user-cen-right{
   font-size  : 13px;
   padding    : 5px 6px 7px 7px;
   position   : absolute;
-  bottom     : 10px;
+  bottom     : 84px;
   right      : 248px;
 }
 div.user-date1{
@@ -390,7 +389,7 @@ div.user-cen-left{
   font-size       : 13px;
   padding         : 5px 6px 7px 7px;
   position        : absolute;
-  bottom          : 10px;
+  bottom          : 84px;
   right           : 0;
   height          : 67px;
   width           : 200px;
@@ -455,6 +454,116 @@ span.num-view7{
   margin     : 0 2px 0 0;
   margin-left: 10px;
 }
+code{
+  padding         : 1px 5px;
+  white-space     : normal;
+  font-family     : Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+  background-color: #eff0f1;
+}
+div.down-center{
+  position     : absolute;
+  left         : 0;
+  bottom       : 27px;
+  border-top   : 1px solid #e4e6e8;
+  border-bottom: 1px solid #e4e6e8;
+}
+div.down-center p{
+  margin     : 7px 10px 7px 15px;
+  font-size  : 13px;
+  color      : #242729;
+  line-height: 1;
+}
+div.down-center div.number{
+  color    : #9199A1;
+  font-size: 13px;
+  padding  : 7px 2px 6px 0;
+}
+div.down-center svg path{
+  fill  : #9199A1;
+}
+div.down-center span a span{
+  color : #9199A1;
+}
+div.end-center1{
+  color    : #848d95;
+  opacity  : 0.6;
+  font-size: 13px;
+  padding  : 0 3px 2px;
+  position : absolute;
+  left     : 0;
+  bottom   : 0;
+}
+div.box-right2{
+  position        : absolute;
+  right           : 0;
+  top             : 0;
+  /*height        : 297px;*/
+  width           : 300px;
+  font-size       : 13px;
+  background-color: #FFF8DC;
+  margin          : 0 0 16px;
+  border          : 1px solid #d6d9dc;
+  border-radius   : 3px;
+  box-shadow      : 0 2px 8px rgba(59,64,69,0.1);
+}
+div.box-right2 div.blog{
+  color           : #737063;
+  font-size       : 12px;
+  background-color: #F7F1D5;
+  padding         : 13px 15px;
+  font-weight     : bold;
+}
+.border-top{
+  border-top: 1px solid #e4e6e8;
+}
+div.box-right2 div.link1{
+  padding: 13px 10px 17px 38px;
+}
+div.box-right2 div.link1 a{
+  font-size: 13px;
+}
+div.box-right2 div.feat{
+  color           : #737063;
+  font-size       : 12px;
+  background-color: #F7F1D5;
+  padding         : 13px 15px;
+  font-weight     : bold;
+}
+div.box-right2 div.link2{
+  padding: 12px 10px 12px 38px;
+}
+div.box-right2 div.link2 a{
+  font-size  : 13px;
+  line-height: 1.3;
+}
+div.box-right2 div.link3{
+  padding: 12px 10px 12px 38px;
+}
+div.box-right2 div.link3 a{
+  font-size  : 13px;
+  line-height: 1.3;
+}
+div.box-right2 div.link4{
+  padding: 12px 10px 12px 38px;
+}
+div.box-right2 div.link4 a{
+  font-size  : 13px;
+  line-height: 1.3;
+}
+div.box-right2 a:hover{
+  color: #0095ff;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
