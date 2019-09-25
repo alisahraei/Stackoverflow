@@ -188,7 +188,7 @@
           </svg>
         </div>
         <div class="box-center3">
-          <p>Maybe you can use CSS. Something like:</p>
+          <p class="ser">Maybe you can use CSS. Something like:</p>
           <div class="code">
             <code>
               <span>#lightbox #imageContainer img {</span><br><span class="color-code">&nbsp;&nbsp;&nbsp;
@@ -201,6 +201,49 @@
               &nbsp;*<br>
               &nbsp;*********************************************/</span>
             </code>
+          </div>
+          <p class="para1">I would recommend using another lightbox library.  My favorite is <a href="http://jacklmoore.com/colorbox/" rel="nofollow">Colorbox</a>, it actually has an option named <code>scalePhotos</code>, which according to their description:</p>
+          <blockquote class="quote1">
+            <p>If true, and if maxWidth, maxHeight, innerWidth, innerHeight, width, or height have been defined, ColorBox will scale photos to fit within the those values.</p>
+          </blockquote>
+          <p class="para2">This option is <code>true</code> by default.</p>
+          <div class="dir-row sec-share2">
+            <div class="pashof2">
+              <a href="#" title="short permalink to this question">share</a>
+            </div>
+            <div class="pashof2">
+              <a href="#">improve this answer</a>
+            </div>
+          </div>
+          <div class="user-cen">
+            <div class="user-date-2">
+              <a href="#">answered
+                <span title="2011-12-24 12:11:40Z">Dec 24 '11 at 12:11</span>
+              </a>
+            </div>
+            <div class="dir-row">
+              <div class="prof1">
+                <img src="image/6d271ac4c454ab4f9e74932ded960864.jpeg">
+              </div>
+              <div class="lr-cen">
+                <div class="name-prof1">
+                  <a href="#">Ayman Safadi</a>
+                </div>
+                <div class="dir-row">
+                  <span class="num-view1">10.9k</span>
+                  <span class="num-view2">23</span>
+                  <span class="num-view3">38</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="para3">Thank you  Ayman Safadi for responding my question. –<a href="#" class="bgcolor" title="3,212 reputation">Abhishek  Nayak</a><a href="#"><span title="2011-12-24 15:09:49Z"> Dec 24 '11 at 15:09</span></a></p>
+          <p class="para4">@Rembo Did it work? –<a href="#" class="bgcolor" title="3,212 reputation">Ayman Safadi</a><a href="#"><span title="2011-12-24 15:29:08Z2"> Dec 24 '11 at 15:29</span></a></p>
+          <p class="para5">Not working. &lt;a class='gallery' href='<%# Eval("ImageURL","~/Images/{0}") %>'  title='<%# Eval("ImageURL") %>' runat="server">                         &lt;asp:Image ID="Image1" runat="server"                              ImageUrl='<%# Eval("ImageURL","~/Images/{0}") %>' BorderColor="#009900"                              BorderStyle="Groove" BorderWidth="5px" Height="200px" Width="200px" />  &lt;/a>                          &lt;script>                              jQuery('a.gallery').colorbox();                          &lt;/script> –<a href="#" class="bgcolor" title="3,212 reputation">Abhishek  Nayak</a><a href="#"><span title="2011-12-24 18:57:31Z"> Dec 24 '11 at 18:57</span></a></p>
+          <p class="para6">@Rembo, your .net/ASP code is irrelevant.  Please post your HTML  instead. In any case, here's a working example of a 1024x1024 image contained in a 200px Colorbox. <a href="#" style="text-decoration: underline;">jsfiddle.net/mzjKx/1</a> –<a href="#" class="bgcolor" title="3,212 reputation">Ayman Safadi</a><a href="#"><span title="2011-12-24 19:49:00Z"> Dec 24 '11 at 19:49</span></a></p>
+          <div class="dir-row faz">
+            <div class="faz2">1</div>
+            <p class="para7">@Rembo. Colorbox (or any other lightbox plugin for that mater)... strike that... <b>JavaScript</b> does not interact with .NET,  ASP, PHP, Python, RoR, Pearl, Java or any other back-end scripting language. JavaScript interacts with HTML. If you can't understand that, I can't help you any further. –<a href="#" class="bgcolor" title="3,212 reputation">Ayman Safadi</a><a href="#"><span title="2011-12-24 20:50:15Z"> Dec 24 '11 at 20:50</span></a></p>
           </div>
         </div>
       </div>
