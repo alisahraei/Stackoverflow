@@ -788,7 +788,7 @@ p.para7{
   font-size    : 13px;
   padding      : 4px 6px 6px 24px;
   border-bottom: 1px solid #eff0f1;
-  margin-bottom: 2px;
+  margin-bottom: 11px;
   line-height  : 1.3;
   position     : relative;
 }
@@ -810,6 +810,208 @@ div.faz2{
   left     : 0px;
   top      : 5px;
 }
+a#a-tak{
+  color    : #0077CC;
+  font-size: 13px;
+  padding  : 0 3px 2px;
+}
+div.notife{
+  color           : #3B4045;
+  font-size       : 13px;
+  background-color: #E1F0Fc;
+  padding         : 9px 50px 8px 16px;
+  line-height     : 1.3;
+  border          : 1px solid #CFDCE6;
+  width           : 727px;
+  border-radius   : 3px;
+  margin-top      : 21px;
+  position        : relative;
+}
+div.ab-exit{
+  position     : absolute;
+  padding      : 8px;
+  border-radius: 4px;
+  right        : 7px;
+  top          : 10px;
+  height       : 32px;
+  width        : 32px;
+  cursor       : pointer;
+}
+div.ab-exit:hover{
+  background-color: rgba(0, 119, 204,0.05);
+}
+div.answer1 h2{
+  color       : #242729;
+  font-size   : 18px;
+  margin      : 0 0 18px;
+  padding     : 20px 0 0;
+  word-spacing: 1px;
+}
+div.inputs div.input1{
+  height: 45px;
+  width : 727px;
+  border: 1px solid #c8ccd0;
+}
+div.inputs div.input2{
+  height       : 44px;
+  width        : 727px;
+  border-left  : 1px solid #c8ccd0;
+  border-right : 1px solid #c8ccd0;
+  border-bottom: 1px solid #c8ccd0;
+}
+div.inputs textarea{
+  width        : 727px;
+  height       : 199px;
+  border-top   : none;
+  border-left  : 1px solid #c8ccd0;
+  border-right : 1px solid #c8ccd0;
+  border-bottom: 1px solid #c8ccd0;
+  resize       : none;
+  padding      : 0.6em 0.7em;
+  margin-bottom: 10px;
+}
+div.inputs textarea:focus{
+  border-color: #66bfff;
+  box-shadow  : 0 0 0 4px rgba(0,149,255,0.15);
+  outline     : 0;
+}
+div.inputs div.khat{
+  height       : 22px;
+  width        : 727px;
+  border-top   : 1px dotted #c8ccd0;
+  border-bottom: 1px dotted #c8ccd0;
+  margin-bottom: 16px;
+}
+div.center-log{
+  display       : flex;
+  flex-direction: row;
+}
+div.log-left div.titr1 h3{
+  color      : #242729;
+  font-size  : 21px;
+  margin     : 4px 0;
+  font-weight: normal;
+}
+div.log-left div.titr1 h3 a{
+  color      : #0077CC;
+  font-size  : 21px;
+  font-weight: normal;
+}
+div.google{
+  height          : 37px;
+  width           : 355.5px;
+  color           : #6A737C;
+  font-size       : 13px;
+  background-color: rgba(187, 192, 162, 0);
+  margin          : 9px 0 4px 0;
+  padding         : 8.4px;
+  border          : 1px solid #adb3b9;
+  border-radius   : 3px;
+  text-align      : center;
+  position        : relative;
+}
+div.google svg{
+  vertical-align: bottom;
+}
+div.facebook{
+  height          : 37.78px;
+  width           : 355.5px;
+  color           : #FFF;
+  font-size       : 13px;
+  background-color: #395697;
+  margin          : 9px 0 4px 0;
+  padding         : 10.4px;
+  border-radius   : 3px;
+  text-align      : center;
+  position        : relative;
+}
+div.facebook svg{
+  vertical-align: bottom;
+}
+div.stack-sign{
+  height          : 37.78px;
+  width           : 355.5px;
+  color           : #6A737C;
+  font-size       : 13px;
+  background-color: rgba(187, 192, 162, 0);
+  margin          : 9px 0 4px 0;
+  padding         : 8.4px;
+  border          : 1px solid #adb3b9;
+  border-radius   : 3px;
+  text-align      : center;
+  position        : relative;
+}
+div.stack-sign svg{
+  vertical-align: bottom;
+}
+div.log-right{
+  margin-left: 16px;
+}
+div.log-right div.titr1 h3{
+  color      : #242729;
+  font-size  : 21px;
+  margin     : 4px 0 3px 0;
+  font-weight: normal;
+}
+div.input-r1{
+}
+div.input-r1 p{
+  color      : #0C0D0E;
+  font-size  : 15px;
+  padding    : 0 2px;
+  font-weight: bold;
+  margin     : 0;
+}
+div.input-r1 input{
+  background-color: #FFF;
+  padding         : 7.8px 9.1px;
+  height          : 32px;
+  width           : 355.5px;
+  border-radius   : 2px;
+  border          : 1px solid #adb3b9;
+  outline         : none;
+  margin-top      : -1px;
+  margin-bottom   : 5px;
+}
+div.input-r2{
+}
+div.input-r2 p.email{
+  color      : #0C0D0E;
+  font-size  : 15px;
+  padding    : 0 2px;
+  font-weight: bold;
+  margin     : 0;
+}
+div.input-r2 p.text{
+  color        : #3B4045;
+  font-size    : 12px;
+  padding      : 0 2px;
+  margin-top   : -4px;
+  margin-bottom: 3px;
+}
+div.input-r2 input{
+  background-color: #FFF;
+  padding         : 7.8px 9.1px;
+  height          : 32.58px;
+  width           : 355.5px;
+  border-radius   : 2px;
+  border          : 1px solid #adb3b9;
+  outline         : none;
+  margin-top      : -1px;
+}
+div.end-sec{
+  margin-top: 39px;
+}
+div.post1 a{
+  color: #FFF;
+  font-size: 13px;
+  background-color: #0095FF;
+  padding: 10px 11px 11px 10.5px;
+  border-radius: 3px;
+  border: 1px solid #07c;
+  box-shadow: inset 0 1px 0 0 rgba(102,191,255,0.75), 0 0 0 0 rgba(0,149,255,0);
+}
+
 
 
 
