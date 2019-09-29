@@ -12,7 +12,7 @@
 }
 body{
   position: relative;
-  height  : 2453.16px;
+  height  : 2403.16px;
 }
 header{
   position: fixed;
@@ -151,7 +151,7 @@ div.link-header a.pro:hover{
 }
 div.all{
   width           : 1100px;
-  height          : 2106.16px;
+  height          : 2158.16px;
   color           : #242729;
   background-color: #FFF;
   padding         : 0 24px 24px 24px;
@@ -1000,21 +1000,68 @@ div.input-r2 input{
   margin-top      : -1px;
 }
 div.end-sec{
-  margin-top: 39px;
+  margin-top: 38px;
 }
 div.post1 a{
   color: #FFF;
   font-size: 13px;
   background-color: #0095FF;
-  padding: 10px 11px 11px 10.5px;
+  padding: 10px 11px 11px 10.4px;
   border-radius: 3px;
   border: 1px solid #07c;
   box-shadow: inset 0 1px 0 0 rgba(102,191,255,0.75), 0 0 0 0 rgba(0,149,255,0);
 }
-
-
-
-
+div.click{
+  margin: 24px 0 0 -2px;
+}
+div.click p{
+  color     : #242729;
+  font-size : 13px;
+  font-style: italic;
+}
+div.end-text{
+  width     : 750px;
+  margin-top: 39px;
+}
+div.end-text a.bgcolor{
+  font-size       : 12px;
+  text-overflow   : #0077CC;
+  background-color: #E1ECF4;
+  padding         : 4px 7px 5px 7px;
+  margin-left     : 2.5px;
+  border-radius   : 3px;
+  color           : #39739d;
+  font-weight     : normal;
+}
+div.end-text a#first{
+  margin-left: 0;
+}
+div.end-text a#second{
+  padding: 4px 6.5px 5px 7px;
+}
+div.end-text a#end{
+  margin-right: 2px;
+}
+div.end-text a.end{
+  font-weight: normal;
+  color      : #07C;
+}
+div.end-text a.bgcolor:hover{
+  color           : #33658a;
+  background-color: #cee0ed;
+  border-color    : #cee0ed;
+}
+div.end-text a.end:hover{
+  color: #3af;
+}
+div.end-text h2{
+  font-weight: normal;
+  line-height: 1.65;
+  color      : #242729;
+  font-size  : 16px;
+  margin     : 15px 0 16px;
+  padding    : 0 10px 0 0;
+}
 
 
 
@@ -1128,4 +1175,152 @@ div.sidebar div.jobs:hover{
 }
 div.side-down div.text:hover{
   color: #0C0D0E;
+}
+footer{
+  height          : 297px;
+  width           : 1856px;
+  font-size       : 13px;
+  background-color: #242729;
+  color           : #6A737C;
+  position        : absolute;
+  bottom          : 0;
+}
+div.footer{
+  height  : 100%;
+  width   : 100%;
+  position: relative;
+  display : flex;
+}
+div.logo-footer{
+  position: absolute;
+  left    : 308px;
+  top     : 20px;
+}
+div.col1{
+  position: absolute;
+  left    : 372px;
+  top     : 26px;
+}
+div.col1 h6{
+  margin-bottom: 4px;
+}
+div.col1 h5{
+  margin-bottom: 11px;
+}
+div.col1 h6 a{
+  font-weight: normal;
+  color      : #848D95;
+  font-size  : 13px;
+}
+div.col1 h5 a#stack{
+  color    : #BBC0C4;
+  font-size: 13px;
+}
+div.col2{
+  position: absolute;
+  left    : 625px;
+  top     : 26px;
+}
+div.col2 h6{
+  margin-bottom: 4px;
+}
+div.col2 h5{
+  margin-bottom: 11px;
+}
+div.col2 h6 a{
+  font-weight: normal;
+  color      : #848D95;
+  font-size  : 13px;
+}
+div.col2 h5 a#stack{
+  color    : #BBC0C4;
+  font-size: 13px;
+}
+div.col3{
+  position: absolute;
+  left    : 805px;
+  top     : 26px;
+}
+div.col3 h6{
+  margin-bottom: 4px;
+}
+div.col3 h5{
+  margin-bottom: 11px;
+}
+div.col3 h6 a{
+  font-weight: normal;
+  color      : #848D95;
+  font-size  : 13px;
+}
+div.col3 h5 a#stack{
+  color    : #BBC0C4;
+  font-size: 13px;
+}
+div.col4{
+  position: absolute;
+  left    : 993px;
+  top     : 30px;
+  width   : 186px;
+}
+div.col4 h6{
+  margin-bottom: 4px;
+}
+div.col4 h5{
+  margin-bottom: 15px;
+  line-height  : 0.9;
+}
+div.col4 h6 a{
+  font-weight: normal;
+  color      : #848D95;
+  font-size  : 13px;
+}
+div.col4 h5 a#stack{
+  color    : #BBC0C4;
+  font-size: 13px;
+}
+span.sf-angle-right{
+  background-color: rgba(132, 141, 149, 0.35);
+  opacity         : 0.5;
+  border-radius   : 3px;
+  min-height      : 12px;
+  min-width       : 12px;
+  font-size       : 10px;
+  color           : #D6D6D6;
+  vertical-align  : baseline;
+  margin-bottom   : 2px;
+}
+div.col5{
+  position: absolute;
+  right   : 440.5px;
+  top     : 31px;
+  display : flex;
+}
+div.col5 h6{
+  margin-bottom: 4px;
+}
+div.col5 h6 a{
+  font-weight: normal;
+  color      : #848D95;
+  font-size  : 11px;
+  margin-right: 12px;
+}
+div.col6{
+  position: absolute;
+  right: 318.5px;
+  bottom: 25px;
+}
+div.col6 p{
+  color: #6A737C;
+  font-size: 11px;
+  line-height: 1.2;
+}
+div.col6 a{
+  color: #848d95;
+  font-size: 11px;
+}
+div h5 a#stack:hover{
+  color: #f2f3f3;
+}
+div h6 a:hover{
+  color: #bbc0c4;
 }
