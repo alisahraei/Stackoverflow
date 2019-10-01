@@ -74,7 +74,7 @@ div.login a:hover{
 }
 div.search input{
   background-color: #FFF;
-  padding         : 9.8px 9.1px 7.8px 32px;
+  padding         : 9.8px 9.1px 7.8px 33px;
   width           : 650.39px;
   height          : 32.59px;
   position        : absolute;
@@ -86,11 +86,12 @@ div.search input{
 div.search input::placeholder{
   opacity  : 0.5;
   font-size: 12px;
+  word-spacing: 1px;
 }
 div.search span{
   font-size  : 18px;
   position   : absolute;
-  top        : 10px;
+  top        : 12px;
   left       : 42.5em;
   color      : #bbc0c4;
   font-weight: normal;
@@ -1152,16 +1153,27 @@ div.sidebar div.side-down{
   font-size: 13px;
   padding  : 4px 4px 4px 8px;
   position : relative;
+  display  : flex;
 }
-div.side-down div.icon{
-  position        : absolute;
-  color           : white;
+div.side-down div.text{
+  padding: 5px 0 0 6px;
+}
+div.side-down div.icons{
   background-color: #F48024;
-  left            : 5px;
-  top             : 5px;
-  height          : 14px;
-  width           : 8px;
-  font-size       : 12px;
+  height          : 16px;
+  width           : 16px;
+  padding         : 0;
+  border-radius   : 2px;
+  margin-top      : 4px;
+}
+div.side-down div.icons svg.faz{
+  fill  : #FFF;
+  margin: 1px 0 0 1px;
+}
+div.side-down div.icons svg.faz2{
+  position: absolute;
+  top     : 18px;
+  left    : 19px;
 }
 div.side-down div{
   font-family: 'Aria', Helvetica, sans-serif;
@@ -1336,7 +1348,7 @@ div.box-right3{
   top             : 36px;
   height          : 60px;
   width           : 300px;
-  background-image: linear-gradient(to right, rgba(241,134,51,1) 0%, rgba(243,136,52,1) 100%);
+  background-image: linear-gradient(to right, rgba(240,107,50,1) 0%, rgba(243,136,52,1) 100%);
   cursor          : pointer;
 }
 div.box-right3 svg{
@@ -1905,4 +1917,77 @@ div.box-right5 div div.text:hover{
 }
 div.box-right5 div.row8 div.text:hover{
   color: #005999;
+}
+div.box-right6{
+  height  : 280px;
+  width   : 300px;
+  position: absolute;
+  right   : 0;
+  bottom  : 270px;
+  padding : 14px 0 0 0;
+}
+div.box-right6 div.title h4{
+  cursor   : pointer;
+  color    : #242729;
+  font-size: 18px;
+}
+div.box-right6 div.text{
+  height : 200px;
+  width  : 300px;
+  padding: 12px 0 0 22px;
+}
+div.box-right6 div.text div.t1{
+  color      : #0077CC;
+  font-size  : 12px;
+  cursor     : pointer;
+  line-height: 1.3;
+}
+div.box-right6 div.text div.t2{
+  color      : #0077CC;
+  font-size  : 12px;
+  cursor     : pointer;
+  line-height: 1.3;
+  margin-top : 10px;
+}
+div.box-right6 div.text div.t3{
+  color      : #0077CC;
+  font-size  : 12px;
+  cursor     : pointer;
+  line-height: 1.3;
+  margin-top : 13px;
+}
+div.box-right6 div.text div.t4{
+  color      : #0077CC;
+  font-size  : 12px;
+  cursor     : pointer;
+  line-height: 1.3;
+  margin-top : 13px;
+}
+div.box-right6 div.text div.t5{
+  color      : #0077CC;
+  font-size  : 12px;
+  cursor     : pointer;
+  line-height: 1.3;
+  margin-top : 13px;
+}
+div.box-right6 div.text div.t6{
+  color      : #0077CC;
+  font-size  : 12px;
+  cursor     : pointer;
+  line-height: 1.3;
+  margin-top : 13px;
+}
+div.box-right6 div.text div.t7{
+  color      : #0077CC;
+  font-size  : 13px;
+  cursor     : pointer;
+  line-height: 1.3;
+  margin-top : 23px;
+  margin-left: -0.5px;
+}
+div.box-right6 svg{
+  position: absolute;
+  left    : 0;
+  bottom  : 5px;
+  fill    : #F48024;
 }
